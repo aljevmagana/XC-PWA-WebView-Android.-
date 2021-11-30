@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "766272647742",
+    "project_id": "xcpwa-webview-dev",
+    "storage_bucket": "xcpwa-webview-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766272647742:android:34e11ad87d79d5f83c976f",
+        "android_client_info": {
+          "package_name": "com.xcpwawebview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766272647742-54ef43c7jbkt5nvuhgjtntn7qsolc473.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnrsakUBhHYl5B_VOgMOVafSnecCozMUk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766272647742-54ef43c7jbkt5nvuhgjtntn7qsolc473.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

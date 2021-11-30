@@ -9,6 +9,7 @@
 import React from 'react';
 import type { Node } from 'react';
 import {
+  ActivityIndicator,
   SafeAreaView,
   ScrollView,
   StatusBar,
@@ -67,9 +68,9 @@ const Section = ({ children, title }): Node => {
 function HomeScreen({ navigation }) {
   return (
     <WebView
-      source={{ uri: 'https://xcpwaretail-development.mobify-storefront.com/' }}
+      source={{ uri: 'https://xcpwaretail-development.mobify-storefront.com' }}
       startInLoadingState={true}
-      renderLoading={() => <Text>.....</Text>}
+      renderLoading={() => <ActivityIndicator />}
     />
   );
 }
@@ -79,7 +80,7 @@ function CartScreen({ navigation }) {
     <WebView
       source={{ uri: 'https://xcpwaretail-development.mobify-storefront.com/en-US/cart' }}
       startInLoadingState={true}
-      renderLoading={() => <Text>.....</Text>}
+      renderLoading={() => <ActivityIndicator />}
     />
   );
 }
@@ -89,7 +90,7 @@ function ProfileScreen({ navigation }) {
     <WebView
       source={{ uri: 'https://xcpwaretail-development.mobify-storefront.com/en-US/login' }}
       startInLoadingState={true}
-      renderLoading={() => <Text>.....</Text>}
+      renderLoading={() => <ActivityIndicator />}
     />
   );
 }
@@ -97,9 +98,9 @@ function ProfileScreen({ navigation }) {
 function SearchScreen({ navigation }) {
   return (
     <WebView
-      source={{ uri: 'https://xcpwaretail-development.mobify-storefront.com/en-US/cart' }}
+      source={{ uri: 'https://xcpwaretail-development.mobify-storefront.com/en-US/searchmobile' }}
       startInLoadingState={true}
-      renderLoading={() => <Text>.....</Text>}
+      renderLoading={() => <ActivityIndicator />}
     />
   );
 }
