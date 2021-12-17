@@ -275,14 +275,14 @@ const App: () => Node = () => {
             listeners={({navigation, route}) => ({
               tabPress: e => {
                 //webView.reload()
-                /* navigation.reset({
+                navigation.reset({
                   index: 0,
                   routes: [
                     {
                       name: 'Profile',
                     },
                   ],
-                }); */
+                });
               },
             })}
           />
@@ -295,14 +295,14 @@ const App: () => Node = () => {
             listeners={({navigation, route}) => ({
               tabPress: e => {
                 //webView.reload()
-                /* navigation.reset({
+                navigation.reset({
                   index: 0,
                   routes: [
                     {
                       name: 'Search',
                     },
                   ],
-                }); */
+                });
               },
             })}
           />
